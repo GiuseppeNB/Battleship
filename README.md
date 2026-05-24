@@ -13,7 +13,7 @@ O jogador ganha quando acha três navios e perde quando acha 5 bombas, não poss
 # 2.2. Regras Aplicadas no Projeto
 O jogo utiliza regras de validação de jogadas e o jogador não pode escolher posições que já foram selecionadas anteriormente. Além disso, existe um limite de posições possíveis no tabuleiro, impedindo que o usuário escolha posições que não existam no tabuleiro, pedindo que seja digitado outra posição.
 
-# 2.3. Documentação do Sistema (Imagens e Código)
+# 2.3. Documentação do Sistema
 else if ((linhaTiro == 0 && colunaTiro==0) || 
                     (linhaTiro==1 && colunaTiro == 3) ||
                     (linhaTiro==4 && colunaTiro==2) ) {
